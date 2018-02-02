@@ -66,7 +66,9 @@
 						</script>
 
 						<div id="chartContainer" style="width: 100%; height: 100%;"></div>
+					<br>
 				</div>
+
 			</div>
 			<!-- ================================END of Chart================================ -->
 
