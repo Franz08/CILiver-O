@@ -15,8 +15,8 @@
 			    <?php else: ?>
 			    	<form method="post" action="<?php echo base_url('index.php/Assessment/sf36_save') ?>" class="container">
 			    <?php endif ?>
-				<form method="post" action="<?php echo base_url('index.php/Assessment/sf36') ?>" class="container">
-						<table class="table table-inverse" id = "white">
+				<form method="post" action="<?php echo base_url('index.php/Assessment/sf36') ?>" class="container ">
+						<table class="table table-inverse form-maroon" id = "white">
 							<thead align="center">
 								<tr>
 									<?php if ($index!=37): ?>

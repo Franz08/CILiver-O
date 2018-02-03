@@ -34,16 +34,16 @@
                     var visibile = document.getElementById("VPassword").className+='glyphicon glyphicon-eye-close';
                 }
         } 
-        function password() {
-            var x = document.getElementById("password");
-                if (x.type === "text") {
-                    x.type = "password";
-                    var visibile = document.getElementById("VPassword").className+='glyphicon glyphicon-eye-open';  
-                } else {
-                    x.type = "text";
-                    var visibile = document.getElementById("VPassword").className+='glyphicon glyphicon-eye-open';  
-                }
-        }
+        // function password() {
+        //     var x = document.getElementById("password");
+        //         if (x.type === "text") {
+        //             x.type = "password";
+        //             var visibile = document.getElementById("VPassword").className+='glyphicon glyphicon-eye-open';  
+        //         } else {
+        //             x.type = "text";
+        //             var visibile = document.getElementById("VPassword").className+='glyphicon glyphicon-eye-open';  
+        //         }
+        // }
     </script>
 
     
@@ -190,7 +190,7 @@
                 <input type="password" name="password" class = "form-control"  id="pass" placeholder="Password" value = "<?php echo set_value('password'); ?>" required><br>
                  <div class="input-group-addon">
                     <div>
-                        <span id = "VPassword" class="glyphicon glyphicon-eye-open" title = "Show Password" onclick="pass()"></span>
+                        <span id = "VPassword" class="glyphicon glyphicon-eye-open" title = "Show Password" onclick="passw()"></span>
                         <!-- <input type="checkbox" name="" title="Show Password" onclick="passw()" > -->
                     </div>
                 </div>

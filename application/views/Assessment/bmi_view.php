@@ -123,5 +123,7 @@
 			</div>
 		</div>
 		<!-- ================================END of Container================================ -->
+
+		<?php include_once('Lib/layout/footer.php');?>
 	</body>
 </html>

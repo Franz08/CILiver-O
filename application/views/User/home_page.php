@@ -29,6 +29,8 @@
 
 <!-- Contents and News -->
 
+<?php include_once('Lib/layout/footer.php');?>
+
 </div>
 </body>
 </html>

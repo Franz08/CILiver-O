@@ -198,7 +198,7 @@ body{
 }
 .form-maroon{
     color: #ffffff;
-    /*background-color: #910039;*/
+    background-color: #910039;
     background: linear-gradient(to right, #b71c1c, #880e4f );
     width: 100%; /*important, changing the default width of forms be careful*/
     padding: 30px;
@@ -207,8 +207,8 @@ body{
 }
 
 form{
-    color: #ffffff;
-    background-color: #910039;
+    /*color: #ffffff;*/
+    /*background-color: #910039;*/
     /*background: linear-gradient(to right, #b71c1c, #880e4f );*/
     width: 100%; /*important, changing the default width of forms be careful*/
     padding: 30px;
