@@ -76,15 +76,9 @@
 			</div>		
 		</div>
 
-		<?php include_once('Lib/layout/footer.php');?>
-
-		<!-- <footer >
-		  	<div class="well well-lg " style="background-color: black" id="white">
-		  		<div class="center-block">
-		  			<center><p> &copy; 2017 - <?php echo date("Y"); ?> LIVER-O </p></center>
-		  		</div>		
-		  	</div>
-		</footer> -->
+		<footer>
+			<?php include_once('Lib/layout/footer.php');?>
+		</footer>
 
 	</body>
 
